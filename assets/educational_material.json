@@ -1,0 +1,169 @@
+{
+  "education_materials": [
+    {
+      "id": 1,
+      "title": "Introduction to Computer Science",
+      "author": "John Doe",
+      "publisher": "Tech Press",
+      "year": 2020,
+      "isbn": "978-1234567890",
+      "category": "Computer Science",
+      "cover_image": "https://covers.openlibrary.org/b/id/8367260-L.jpg",
+      "url": "https://openlibrary.org/books/OL1234567M/Introduction_to_Computer_Science"
+    },
+    {
+      "id": 2,
+      "title": "Advanced Mathematics for Engineers",
+      "author": "Jane Smith",
+      "publisher": "Engineering Publishers",
+      "year": 2018,
+      "isbn": "978-0987654321",
+      "category": "Mathematics",
+      "cover_image": "https://covers.openlibrary.org/b/id/9533811-L.jpg",
+      "url": "https://openlibrary.org/books/OL2345678M/Advanced_Mathematics_for_Engineers"
+    },
+    {
+      "id": 3,
+      "title": "Basic Physics for Beginners",
+      "author": "Dr. Alan Brown",
+      "publisher": "Science Books",
+      "year": 2019,
+      "isbn": "978-1122334455",
+      "category": "Physics",
+      "cover_image": "https://covers.openlibrary.org/b/id/9784842-L.jpg",
+      "url": "https://openlibrary.org/books/OL3456789M/Basic_Physics_for_Beginners"
+    },
+    {
+      "id": 4,
+      "title": "History of Ancient Civilizations",
+      "author": "Dr. Emily White",
+      "publisher": "History Press",
+      "year": 2021,
+      "isbn": "978-2233445566",
+      "category": "History",
+      "cover_image": "https://covers.openlibrary.org/b/id/9445149-L.jpg",
+      "url": "https://openlibrary.org/books/OL4567890M/History_of_Ancient_Civilizations"
+    },
+    {
+      "id": 5,
+      "title": "The Art of Teaching",
+      "author": "Dr. Mark Johnson",
+      "publisher": "Education Books",
+      "year": 2020,
+      "isbn": "978-3344556677",
+      "category": "Education",
+      "cover_image": "https://covers.openlibrary.org/b/id/8721119-L.jpg",
+      "url": "https://openlibrary.org/books/OL5678901M/The_Art_of_Teaching"
+    },
+    {
+      "id": 6,
+      "title": "Machine Learning Basics",
+      "author": "Sarah Lee",
+      "publisher": "Tech Future",
+      "year": 2022,
+      "isbn": "978-5566778899",
+      "category": "Technology",
+      "cover_image": "https://covers.openlibrary.org/b/id/6759397-L.jpg",
+      "url": "https://openlibrary.org/books/OL6789012M/Machine_Learning_Basics"
+    },
+    {
+      "id": 7,
+      "title": "Introduction to Philosophy",
+      "author": "Dr. George Miller",
+      "publisher": "Philosophy Press",
+      "year": 2017,
+      "isbn": "978-6677889900",
+      "category": "Philosophy",
+      "cover_image": "https://covers.openlibrary.org/b/id/5832814-L.jpg",
+      "url": "https://openlibrary.org/books/OL7890123M/Introduction_to_Philosophy"
+    },
+    {
+      "id": 8,
+      "title": "Modern Chemistry",
+      "author": "Dr. Linda Green",
+      "publisher": "Science Books",
+      "year": 2020,
+      "isbn": "978-9988776655",
+      "category": "Chemistry",
+      "cover_image": "https://covers.openlibrary.org/b/id/8704137-L.jpg",
+      "url": "https://openlibrary.org/books/OL8901234M/Modern_Chemistry"
+    },
+    {
+      "id": 9,
+      "title": "Global Economic Theories",
+      "author": "Dr. Samuel Johnson",
+      "publisher": "Economics Press",
+      "year": 2021,
+      "isbn": "978-6677882244",
+      "category": "Economics",
+      "cover_image": "https://covers.openlibrary.org/b/id/9067451-L.jpg",
+      "url": "https://openlibrary.org/books/OL9012345M/Global_Economic_Theories"
+    },
+    {
+      "id": 10,
+      "title": "Environmental Sustainability",
+      "author": "Professor Jane Brown",
+      "publisher": "Eco Books",
+      "year": 2022,
+      "isbn": "978-4455667788",
+      "category": "Environment",
+      "cover_image": "https://covers.openlibrary.org/b/id/8482923-L.jpg",
+      "url": "https://openlibrary.org/books/OL1234567M/Environmental_Sustainability"
+    },
+    {
+      "id": 11,
+      "title": "Digital Marketing Fundamentals",
+      "author": "Michael Carter",
+      "publisher": "Business Books",
+      "year": 2021,
+      "isbn": "978-5432167890",
+      "category": "Marketing",
+      "cover_image": "https://covers.openlibrary.org/b/id/1189796-L.jpg",
+      "url": "https://openlibrary.org/books/OL6789012M/Digital_Marketing_Fundamentals"
+    },
+    {
+      "id": 12,
+      "title": "Artificial Intelligence in Medicine",
+      "author": "Dr. Olivia Zhang",
+      "publisher": "HealthTech Press",
+      "year": 2023,
+      "isbn": "978-1234598765",
+      "category": "Medical Technology",
+      "cover_image": "https://covers.openlibrary.org/b/id/8594372-L.jpg",
+      "url": "https://openlibrary.org/books/OL3456789M/Artificial_Intelligence_in_Medicine"
+    },
+    {
+      "id": 13,
+      "title": "Introduction to Data Science",
+      "author": "David Miller",
+      "publisher": "Tech Academy",
+      "year": 2021,
+      "isbn": "978-9876543210",
+      "category": "Data Science",
+      "cover_image": "https://covers.openlibrary.org/b/id/9576893-L.jpg",
+      "url": "https://openlibrary.org/books/OL2345678M/Introduction_to_Data_Science"
+    },
+    {
+      "id": 14,
+      "title": "Blockchain Technology Explained",
+      "author": "Robert James",
+      "publisher": "Tech Insight",
+      "year": 2022,
+      "isbn": "978-5678901234",
+      "category": "Blockchain",
+      "cover_image": "https://covers.openlibrary.org/b/id/4526831-L.jpg",
+      "url": "https://openlibrary.org/books/OL4567890M/Blockchain_Technology_Explained"
+    },
+    {
+      "id": 15,
+      "title": "Cybersecurity Essentials",
+      "author": "Rebecca Taylor",
+      "publisher": "Security Books",
+      "year": 2022,
+      "isbn": "978-8765432109",
+      "category": "Cybersecurity",
+      "cover_image": "https://covers.openlibrary.org/b/id/8563492-L.jpg",
+      "url": "https://openlibrary.org/books/OL5678901M/Cybersecurity_Essentials"
+    }
+  ]
+}

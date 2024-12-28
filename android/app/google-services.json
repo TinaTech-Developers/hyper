@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "512686810338",
+    "project_id": "hyper-68b2a",
+    "storage_bucket": "hyper-68b2a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512686810338:android:b32b502998b3d70e93eabb",
+        "android_client_info": {
+          "package_name": "com.example.hyper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGRq8cgW-nEpMe4C6kzfHtRJOA0jVot_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
