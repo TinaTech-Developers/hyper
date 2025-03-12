@@ -9,7 +9,7 @@
       "year": 2020,
       "isbn": "978-1234567890",
       "category": "Biology",
-      "cover_image": "https://covers.openlibrary.org/b/id/8367260-L.jpg",
+      "cover_image": "assets/images/1.png",
       "url": "https://openlibrary.org/books/OL1234567M/Introduction_to_Computer_Science"
     },
     {
@@ -21,7 +21,7 @@
       "year": 2022,
       "isbn": "978-8765432109",
       "category": "Cybersecurity",
-      "cover_image": "https://covers.openlibrary.org/b/id/8563492-L.jpg",
+      "cover_image": "/assets/images/2.jpg",
       "url": "https://openlibrary.org/books/OL5678901M/Cybersecurity_Essentials"
     },
     {
@@ -33,7 +33,7 @@
       "year": 2022,
       "isbn": "978-5678901234",
       "category": "Blockchain",
-      "cover_image": "https://covers.openlibrary.org/b/id/4526831-L.jpg",
+      "cover_image": "/assets/images/2.jpg",
       "url": "https://openlibrary.org/books/OL4567890M/Blockchain_Technology_Explained"
     },
     {
@@ -45,7 +45,7 @@
       "year": 2023,
       "isbn": "978-1234598765",
       "category": "Medical Technology",
-      "cover_image": "https://covers.openlibrary.org/b/id/8594372-L.jpg",
+      "cover_image": "/assets/images/4.jpg",
       "url": "https://openlibrary.org/books/OL3456789M/Artificial_Intelligence_in_Medicine"
     },
     {
@@ -57,7 +57,7 @@
       "year": 2022,
       "isbn": "978-4455667788",
       "category": "Environment",
-      "cover_image": "https://covers.openlibrary.org/b/id/8482923-L.jpg",
+      "cover_image": "/assets/images/5.jpg",
       "url": "https://openlibrary.org/books/OL1234567M/Environmental_Sustainability"
     },
     {
@@ -69,7 +69,7 @@
       "year": 2020,
       "isbn": "978-9988776655",
       "category": "Chemistry",
-      "cover_image": "https://covers.openlibrary.org/b/id/8704137-L.jpg",
+      "cover_image": "/assets/images/2.jpg",
       "url": "https://openlibrary.org/books/OL8901234M/Modern_Chemistry"
     },
     {
@@ -81,7 +81,7 @@
       "year": 2021,
       "isbn": "978-2233445566",
       "category": "History",
-      "cover_image": "https://covers.openlibrary.org/b/id/9445149-L.jpg",
+      "cover_image": "/assets/images/2.jpg",
       "url": "https://openlibrary.org/books/OL4567890M/History_of_Ancient_Civilizations"
     },
     {
@@ -93,7 +93,7 @@
       "year": 2020,
       "isbn": "978-3344556677",
       "category": "Education",
-      "cover_image": "https://covers.openlibrary.org/b/id/8721119-L.jpg",
+      "cover_image": "/assets/images/2.jpg",
       "url": "https://openlibrary.org/books/OL5678901M/The_Art_of_Teaching"
     }
   ]
