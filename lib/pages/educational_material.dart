@@ -1,6 +1,7 @@
 class EducationalMaterial {
   final int id;
   final String title;
+  final String description;
   final String author;
   final String publisher;
   final int year;
@@ -12,6 +13,7 @@ class EducationalMaterial {
   EducationalMaterial({
     required this.id,
     required this.title,
+    required this.description,
     required this.author,
     required this.publisher,
     required this.year,
@@ -26,6 +28,7 @@ class EducationalMaterial {
     return EducationalMaterial(
       id: json['id'],
       title: json['title'],
+      description: json['description'],
       author: json['author'],
       publisher: json['publisher'],
       year: json['year'],
@@ -41,6 +44,7 @@ class EducationalMaterial {
     return {
       'id': id,
       'title': title,
+      'description': description,
       'author': author,
       'publisher': publisher,
       'year': year,

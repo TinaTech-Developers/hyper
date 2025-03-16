@@ -85,17 +85,34 @@ class _EducationPageState extends State<EducationPage> {
                             margin: EdgeInsets.symmetric(
                                 vertical: 8, horizontal: 16),
                             child: ListTile(
-                              leading: Image.network(material.coverImage),
+                              leading: ClipRRect(
+                                borderRadius: BorderRadius.circular(10.0),
+                                child: Image.asset(
+                                  material.coverImage,
+                                  width: 100, // Set a fixed width for the image
+                                  height:
+                                      60, // Set a fixed height for the image
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
                               title: Text(material.title),
-                              subtitle: Text('Author: ${material.author}'),
+                              subtitle:
+                                  Text('Description: ${material.description}'),
                               onTap: () {
                                 // Open the material details page
                                 final materialUrl = material.url;
+                                final imageUrl = material.coverImage;
+                                final title = material.title;
+                                final desc = material.description;
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) =>
-                                        BookDetailPage(bookUrl: materialUrl),
+                                    builder: (context) => BookDetailPage(
+                                      bookUrl: materialUrl,
+                                      image: imageUrl,
+                                      title: title,
+                                      description: desc,
+                                    ),
                                   ),
                                 );
                               },
@@ -112,38 +129,76 @@ class _EducationPageState extends State<EducationPage> {
 
 class BookDetailPage extends StatelessWidget {
   final String bookUrl;
+  final String image;
+  final String title;
+  final String description;
 
-  const BookDetailPage({required this.bookUrl});
+  const BookDetailPage(
+      {required this.bookUrl,
+      required this.image,
+      required this.title,
+      required this.description});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('Material Details'),
+        backgroundColor: Colors.blue,
       ),
-      body: Center(
+      body: SingleChildScrollView(
+        padding: EdgeInsets.all(16.0),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text('Material URL:'),
-            SizedBox(height: 10),
-            Text(bookUrl, style: TextStyle(color: Colors.blue)),
-            SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                // Launch the URL (optional, you can use url_launcher package here)
-                _launchURL(bookUrl);
-              },
-              child: Text('View Material Details'),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(12.0),
+              child: Image.asset(
+                image,
+                height: 250,
+                fit: BoxFit.cover,
+              ),
             ),
+            SizedBox(height: 20),
+            Text(
+              title,
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(height: 8),
+            SelectableText(
+              description,
+              style: TextStyle(
+                color: Colors.black,
+              ),
+            ),
+            SizedBox(height: 30),
+            // ElevatedButton.icon(
+            //   onPressed: () {
+            //     _launchURL(bookUrl);
+            //   },
+            //   icon: Icon(Icons.open_in_new),
+            //   label: Text('View Material Details'),
+            //   style: ElevatedButton.styleFrom(
+            //     backgroundColor: Colors.deepPurple,
+            //     padding: EdgeInsets.symmetric(vertical: 15),
+            //     textStyle: TextStyle(fontSize: 16),
+            //   ),
+            // ),
           ],
         ),
       ),
     );
   }
 
-  void _launchURL(String url) {
-    // You can use the url_launcher package to open the URL
-    // Example: launch(url);
-  }
+//   void _launchURL(String url) async {
+//     final Uri uri = Uri.parse(url);
+//     if (await canLaunchUrl(uri)) {
+//       await launchUrl(uri);
+//     } else {
+//       throw 'Could not launch $url';
+//     }
+//   }
 }
